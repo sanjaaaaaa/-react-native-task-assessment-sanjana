@@ -70,4 +70,4 @@ The application is designed with a **Mobile-First** approach. When viewing on a 
 - [x] **Bonus**: Skeleton loaders, pull-to-refresh, and smooth hover animations.
 
 ---
-Built with ❤️ for the **exactspace** Senior Frontend Assessment.
+Built with ❤️ for the **exactspace**.
