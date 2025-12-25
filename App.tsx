@@ -1,19 +1,27 @@
-
 import React from 'react';
+import { SafeAreaView, StyleSheet, View } from 'react-native';
 import { PostListScreen } from './screens/PostListScreen';
 
-/**
- * App.tsx
- * Root component for the Intern Assessment Project.
- */
 function App() {
   return (
-    <div className="app-container">
-      <div className="app-mock bg-white overflow-hidden relative w-full h-full sm:max-h-[844px] sm:max-w-[390px]">
+    <SafeAreaView style={styles.container}>
+      <View style={styles.appContainer}>
         <PostListScreen />
-      </div>
-    </div>
+      </View>
+    </SafeAreaView>
   );
 }
 
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor: '#f1f5f9',
+  },
+  appContainer:{
+    flex: 1,
+    overflow: 'hidden',
+  },
+});
+
 export default App;
+

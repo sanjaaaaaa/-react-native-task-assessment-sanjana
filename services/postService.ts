@@ -1,18 +1,10 @@
-
 import { Post } from '../types';
 
 const API_URL = 'https://jsonplaceholder.typicode.com/posts';
 
-/**
- * services/postService.ts
- * Handles all API networking logic.
- */
 export const postService = {
-  /**
-   * Fetches the list of posts from JSONPlaceholder.
-   */
   fetchPosts: async (): Promise<Post[]> => {
-    try {
+    try{
       const response = await fetch(API_URL);
       
       if (!response.ok) {
@@ -20,7 +12,7 @@ export const postService = {
       }
       
       return await response.json();
-    } catch (error) {
+    }catch (error) {
       console.error('API Fetch Error:', error);
       throw error;
     }
