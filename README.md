@@ -3,8 +3,6 @@
 
 A high-performance, aesthetically pleasing Post Explorer application built as part of a Senior Engineering assessment. This project demonstrates clean architecture, real-time data processing, and seamless persistence using React and modern CSS.
 
-![Header Image](https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000&h=300)
-
 ## ✨ Features
 
 - **Fetching & Display**: Seamlessly retrieves post data from the JSONPlaceholder API.
