@@ -3,6 +3,21 @@
 
 A high-performance, aesthetically pleasing Post Explorer application built as part of a Senior Engineering assessment. This project demonstrates clean architecture, real-time data processing, and seamless persistence using React and modern CSS.
 
+## React Native Version Used:
+React Native 0.74.1
+
+## Additional Libraries Installed:
+expo (~51.0.8)
+expo-status-bar (~1.12.1)
+@react-native-async-storage/async-storage (1.23.1)
+tailwindcss (^3.4.1)
+vite (^6.2.0)
+
+## Bonus Features Implemented:
+Loading indicator while fetching data
+Skeleton loader UI for improved user experience
+Pull-to-refresh functionality for reloading posts
+
 ## ✨ Features
 
 - **Fetching & Display**: Seamlessly retrieves post data from the JSONPlaceholder API.
@@ -35,30 +50,6 @@ src/
 ├── screens/        # Main page compositions
 └── types.ts        # TypeScript interfaces and enums
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (Latest LTS recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/exactspace-explorer.git
-   cd exactspace-explorer
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
 ## 📱 Mobile Simulation
 The application is designed with a **Mobile-First** approach. When viewing on a desktop, the UI is wrapped in a premium mobile frame to showcase the intended React Native user experience.
 
